@@ -1,1 +1,137 @@
-<h1>✌️</h1>
+<html>
+	<head>
+		<title>Thom Dorkings &bull; Designer</title>
+		<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+		<style>  
+			body {
+				padding: 0 20px 20px 20px;
+				margin: 0;
+				background: #fff;
+			}
+			
+			* {
+   			cursor: url('img/cursor.svg') 30 30, auto;
+			}
+			
+			.img-container {
+   			position: fixed;
+   			top: 0;
+   			right: 0;
+   			bottom: 0;
+   			left: 0;
+   			background-color: #fff;
+			}
+			
+			.img {
+				position: absolute;
+				top: 5vh;
+				right: 5vh;
+				bottom: 5vh;
+				left: 5vh;
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+				background-size: contain;
+				background-image: url('img/larsson-jennings.jpg');
+				background-color: #fff;
+				z-index: 0;
+				animation: gallery 3s infinite;
+				animation-timing-function: steps(1);
+				transition: all 0.3s ease;
+			}
+			
+			h1, p {
+				font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+				font-size: 6vw;
+				line-height: 1.1;
+				letter-spacing: -0.05em;
+				color: #fff;
+				mix-blend-mode: difference;
+				position: relative;
+				z-index: 1;
+				margin: 0;
+				text-indent: 2em;
+				margin: 0;
+				font-weight: normal;
+				-webkit-text-size-adjust: none;
+				-webkit-font-smoothing: antialiased;
+				transition: all 0.3s ease;
+			}
+			
+			p>a {
+				color: #fff;
+			}
+			
+			p.smallprint {
+				margin: 75vh 0 0 0;
+				font-size: 4vw;
+				text-indent: 0;
+			}
+			
+			h1 {
+				text-indent: 0;
+				height: 80vh;
+				font-size: 24vw;
+			}
+			
+			h1>span {
+				display: inline-block;
+				width: 50%;
+				position: sticky;
+				top: 0;
+			}
+			
+			.left {
+				text-align: left;
+			}
+			
+			.right {
+				text-align: right;
+			}
+			
+			@keyframes gallery {
+   			0% { background-image: url('img/larsson-jennings.jpg'); }
+   			20% { background-image: url('img/aaks.jpg'); }
+   			40% { background-image: url('img/brooklyn-coffee.jpg'); }
+   			60% { background-image: url('img/sarah-exley.jpg'); }
+   			80% { background-image: url('img/clippings-normann-copenhagen.jpg'); }
+			}
+			
+			@media (min-width: 768px) {
+   			
+   			h1 {
+      			font-size: 16vw;
+   			}  
+   			
+   			p {
+      			font-size: 4vw;
+   			}
+   			
+   			p.smallprint {
+      			font-size: 2vw;
+      			margin: 75vh 0 0 50vw;
+   			}
+   			
+   			.img {
+   				top: 15vh;
+   				right: 15vh;
+   				bottom: 15vh;
+   				left: 15vh;
+				}
+   			
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h1><span class="left">T</span><span class="right">D</span></h1>
+		<p>Over 10 years experience in brand, web &amp; product design. Working with fashion, hospitality, art and interior brands to define end to end customer experiences from identity to app.</p>
+		<p>Previous clients include &bull; TAG Group, Larsson &amp; Jennings, Zennström Philanthropies, Artliner, Elicyon, Hush, Nutters of Savile Row, AAKS, Sarah Exley, Fashion Scout and Brooklyn Coffee (RIP).</p>
+		<p>Currently Head of Design at <a href="http://clippings.com">Clippings</a> transforming how architects and interior designers source furniture.</p>
+		<p>&nbsp;</p>
+		<p>&#x219D; <a href="mailto:hello@thomdorkings.com">Email</a>, <a href="https://www.linkedin.com/in/thom-dorkings-9851b7184/">LinkedIn</a>, <a href="https://twitter.com/thomdorkings">Twitter</a>, <a href="https://instagram.com/thomdorkings">Instagram</a>.</p>
+		<p class="smallprint">&bull; Working independently, in-house or on behalf of <a href="http://awcoagency.com">AW&amp;CO</a> and <a href="http://candyblack.com">Candy Black</a>.</p>
+		<div class="img-container">
+		   <div class="img"></div>
+		</div>
+	</body>
+</html>
